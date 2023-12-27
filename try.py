@@ -12,7 +12,7 @@ class PersonalFinanceApp:
         self.root = root
         self.root.title("Personal Finance Dashboard")
 
-        # Database connection
+    
         self.conn = sqlite3.connect('finance.db')
         self.cursor = self.conn.cursor()
 
